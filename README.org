@@ -1,0 +1,13 @@
+#+Title: Nginx reverse proxy
+#+Author: Daljit Singh, James Blair and Shawn Gerrard
+#+Date: <2021-03-10 Wed>
+
+* Purpose
+
+This repository documents the process of deploying an instance of [[https://nginx.com][nginx]] as a reverse proxy via [[https://docs.docker.com/compose/][docker compose]].
+
+The reason we are exploring this is to use nginx as a proxy for requests onto back end services such as gitlab and wordpress that I intend to self-host.
+
+* Background
+
+Nginx is the open source web server that powers more than 400 million websites. It can be used a [[https://en.wikipedia.org/wiki/Reverse_proxy][reverse proxy]].
